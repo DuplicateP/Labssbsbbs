@@ -18,40 +18,10 @@
       "description": "Get your bot token by talking to @Botfather",
       "required": false
     },
-    "APP_NAME": {
-      "description": "Heroku app name",
-      "required": false
-    },
-    "API_KEY": {
-      "description": "Heroku api key",
-      "required": false
-    },
     "OWNER_ID": {
       "description": "who will use this bot",
       "value": "",
       "required": false
-    },
-    "FR_TOKEN": {
-      "description": "FR_TOKEN",
-      "value": "f4f0e3047723385244d3aae0068d60ec09f79345",
-      "required": true
-    },
-    "credits": {
-      "description": "Give credit",
-      "value": "",
-      "required": false
-    },
-    "GROUP_IDS": {
-      "value": "",
-      "description": "Group Ids seperated by space",
-      "required": false
-    }
-  },
-  "formation": {
-    "worker": {
-      "quantity": 1,
-      "size": "eco"
-    }
   },
   "buildpacks": [
     {
